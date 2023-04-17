@@ -1,0 +1,22 @@
+programa {
+  inteiro al
+  funcao inicio() {
+    escreva("Qual o tamanho do muro?\n")
+    leia(al)
+    
+    se(al > 3)
+    {
+    escreva("A lesma vai demorar ", al - 2, " dias.")
+    
+    }
+     
+     senao
+    {
+      
+      escreva("A lesma vai demorar 1 dia")
+    }
+
+    
+   
+  }
+}
